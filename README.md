@@ -1,4 +1,4 @@
-# Gray Code Structured Light Utils
+# Gray-Code Structured Light utilities
 
 ## Build
 
@@ -15,7 +15,7 @@ make
 
 ![](images/encode.png)
 
-```
+```cpp
 GrayCode gray(1024, 1024);
 
 for (int i = 0; i < gray.getBitsX(); i++) {
@@ -41,7 +41,7 @@ for (int i = 0; i < gray.getBitsY(); i++) {
 
 ![](images/texture.png)
 
-```
+```cpp
 std::vector<cv::Mat> imagesH, imagesV;
 
 for (int i = 0; i < 10; i++) {
@@ -73,3 +73,6 @@ CvUtils::writeMatToFile(texture, "texture.txt");
 
 cv::waitKey();
 ```
+
+## License
+This code is licensed under the MIT License (see [LICENSE](LICENSE)).
