@@ -1,5 +1,7 @@
 # Gray-Code Structured Light utilities
 
+Application case：https://robot9.me/autostereoscopy-3d-test/
+
 ## Build
 
 ```
